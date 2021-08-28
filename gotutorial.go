@@ -2,6 +2,6 @@ package gotutorial
 
 import "fmt"
 
-func Greetings() {
-    fmt.Println("say hi from gotutorial module")
+func Greetings(msg string) {
+    fmt.Println("say hi from gotutorial module: %s", msg)
 }
